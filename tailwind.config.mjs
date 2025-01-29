@@ -8,8 +8,18 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        background: "#cec4b4",
+        foreground: "#d4d0ca",
+        primary: "#354228",
+        secondary: "#1e2b1b",
+      },
+      fontFamily: {
+        Crimson: "Crimson Text",
+        josefin: "Josefin Sans",
+        Roboto: "Roboto",
+        playwrite: "Playwrite IN",
+        oswald: "Oswald",
+        poppins: "Poppins",
       },
     },
   },
