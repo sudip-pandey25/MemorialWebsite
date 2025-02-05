@@ -8,10 +8,10 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "#cec4b4",
-        foreground: "#d4d0ca",
-        primary: "#354228",
-        secondary: "#1e2b1b",
+        background: "#27445D",
+        foreground: "#497D74",
+        primary: "#27445D",
+        secondary: "#EFE9D5",
       },
       fontFamily: {
         Crimson: "Crimson Text",
@@ -20,6 +20,7 @@ export default {
         playwrite: "Playwrite IN",
         oswald: "Oswald",
         poppins: "Poppins",
+        lato: "Lato",
       },
     },
   },

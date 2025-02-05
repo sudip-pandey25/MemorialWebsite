@@ -4,11 +4,11 @@ import MenuBar from "./MenuBar";
 
 const Navbar = () => {
   return (
-    <header className="  sticky top-0 z-50 h-16 md:h-20 bg-gradient-to-br from-amber-50 to-blue-50 ">
+    <header className="  sticky top-0 z-50 h-16 md:h-20 bg-gradient-to-br from-amber-50 to-blue-50 backdrop-blur-md ">
       <nav className="relative border-b shadow-sm flex items-center justify-between max-container w-full  px-4 md:px-6 lg:px-8 xl:px-12 h-full">
         {/* Desktop Navigation */}
         <Link href="/">
-          <h1 className="font-playwrite text-xl md:text-2xl text-teal-600 font-extrabold">
+          <h1 className="font-playwrite text-xl md:text-2xl text-foreground font-extrabold">
             Memorability
           </h1>
         </Link>
@@ -27,7 +27,7 @@ const Navbar = () => {
         </ul>
 
         <div className="hidden lg:flex items-center font-poppins">
-          <button className="bg-[#9e896a] px-3 py-2 rounded-full hover:px-4  transition-all duration-300 ease-in-out hover:shadow-sm text-white">
+          <button className="bg-foreground px-3 py-2 rounded-full hover:px-4  transition-all duration-300 ease-in-out hover:shadow-sm text-white">
             Sign Up
           </button>
         </div>

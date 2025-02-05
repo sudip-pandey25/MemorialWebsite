@@ -33,7 +33,7 @@ const CardParallelx = ({ reason, url, name, color }) => {
         {DUMMY_DATA.map((data, index) => (
           <SwiperSlide key={index}>
             <div
-              className="h-[400px] w-full flex flex-row items-center justify-between gap-4 px-32 rounded-2xl "
+              className="h-[400px] w-full flex flex-row items-center justify-between gap-4 md:px-20 lg:px-32 rounded-2xl "
               style={{ backgroundColor: `${data.color}` }}
             >
               {/* Left Side */}
