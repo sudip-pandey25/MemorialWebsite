@@ -6,6 +6,7 @@ import Hero from "./components/Hero";
 import Slider from "./components/Slider";
 import SecondSection from "./components/SecondSection";
 import Forms from "./components/Forms";
+import Testimonails from "./components/Testimonails";
 
 export default function Home() {
   return (
@@ -35,6 +36,9 @@ export default function Home() {
       </div>
       <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-12 md:py-20 hidden  md:flex items-center justify-center ">
         <Card />
+      </div>
+      <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-12 md:py-20">
+        <Testimonails />
       </div>
 
       <div className=" relative px-4 md:px-6 lg:px-8 xl:px-12 py-12 bg-teal-800 flex flex-col h-[90vh] gap-4 ">

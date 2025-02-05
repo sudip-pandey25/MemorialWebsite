@@ -28,7 +28,7 @@ const CardParallelx = ({ reason, url, name, color }) => {
           clickable: true,
         }}
         modules={[FreeMode, Pagination]}
-        className="max-w-[70%] "
+        className="max-w-[70%]"
       >
         {DUMMY_DATA.map((data, index) => (
           <SwiperSlide key={index}>

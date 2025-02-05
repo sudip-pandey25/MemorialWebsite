@@ -71,3 +71,51 @@ export const Collections = [
     url: "https://images.pexels.com/photos/29479542/pexels-photo-29479542/free-photo-of-elegant-portrait-of-a-fashionable-woman.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1",
   },
 ];
+
+export const testimonials = [
+  {
+    id: 1,
+    name: "Jane Doe (New York, USA)",
+    ratings: 4,
+    description:
+      "Creating a memorial for my mother gave us a place to cherish her beautiful memories. Family members from all over the world shared their favorite photos and heartfelt tributes. It truly brought us closer.",
+    imageUrl:
+      "https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg",
+  },
+  {
+    id: 2,
+    name: "Rajesh Kumar (Delhi, India)",
+    ratings: 5,
+    description:
+      "I wanted a space to honor my late grandfather, and this platform allowed me to do just that. Uploading his photos and seeing family members' memories brought immense comfort during tough times.",
+    imageUrl:
+      "https://images.pexels.com/photos/220453/pexels-photo-220453.jpeg",
+  },
+  {
+    id: 3,
+    name: "Emily Harris (London, UK)",
+    ratings: 3,
+    description:
+      "This site has become a digital legacy for my brother. It gives us peace knowing his story lives on, and we can revisit those memories anytime, anywhere.",
+    imageUrl:
+      "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+  },
+  {
+    id: 4,
+    name: "Carlos Fernández (Mexico City, Mexico)",
+    ratings: 4,
+    description:
+      "Having a dedicated place to celebrate my father's life has been healing for our family. The simplicity of the platform made it easy to preserve his memory forever.",
+    imageUrl:
+      "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
+  },
+  {
+    id: 5,
+    name: "Amina Yusuf (Lagos, Nigeria)",
+    ratings: 5,
+    description:
+      "This site gave me a way to honor my late sister and share her vibrant life story. Friends and family have left heartwarming messages that keep her memory alive.",
+    imageUrl:
+      "https://images.pexels.com/photos/274947/pexels-photo-274947.jpeg",
+  },
+];
