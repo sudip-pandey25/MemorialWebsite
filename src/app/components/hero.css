@@ -25,3 +25,53 @@
 .button-text a:hover {
   color: whitesmoke;
 }
+
+.hero-shape .hero-1 {
+  position: absolute;
+  width: 45vw;
+  height: 45vw;
+  background-color: #ff5a00;
+  border-radius: 50%;
+  left: 0;
+  filter: blur(50px);
+  z-index: 10;
+  animation-name: anime1;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+.hero-shape .hero-2 {
+  position: absolute;
+  width: 40vw;
+  height: 40vw;
+  background-color: #ff5a00;
+  border-radius: 50%;
+  right: 0;
+  bottom: 0;
+  filter: blur(50px);
+  z-index: 10;
+  animation-name: anime2;
+  animation-duration: 3s;
+  animation-timing-function: linear;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anime1 {
+  from {
+    transform: translate(10%, -10%);
+  }
+  to {
+    transform: translate(-10%, 10%);
+  }
+}
+@keyframes anime2 {
+  from {
+    transform: translate(-10%, 10%);
+  }
+  to {
+    transform: translate(10%, -10%);
+  }
+}

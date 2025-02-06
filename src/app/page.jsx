@@ -7,11 +7,12 @@ import Slider from "./components/Slider";
 import SecondSection from "./components/SecondSection";
 import Forms from "./components/Forms";
 import Testimonails from "./components/Testimonails";
+import "./components/hero.css";
 
 export default function Home() {
   return (
     <>
-      <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-4">
+      <div className="relative px-4 md:px-6 lg:px-8 xl:px-12 py-4">
         <Hero />
       </div>
       <div className="px-2 md:px-60 ">
