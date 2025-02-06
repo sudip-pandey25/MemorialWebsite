@@ -3,9 +3,9 @@ import React from "react";
 
 const SecondSection = () => {
   return (
-    <div className="flex gap-12 items-center justify-center">
+    <div className="flex gap-12 items-center justify-center group">
       {/* image part */}
-      <div className="hidden md:block relative h-[60vh] w-2/6 ">
+      <div className="hidden md:block relative h-[60vh] w-2/6 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300 ease-out ">
         <Image
           src="https://images.pexels.com/photos/11613540/pexels-photo-11613540.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           fill
@@ -13,7 +13,7 @@ const SecondSection = () => {
           className="object-cover rounded-md z-10 "
           alt=""
         />
-        <div className="bg-primary h-full w-full absolute -left-3 -bottom-3 rounded-md"></div>
+        <div className="bg-primary h-full w-full absolute -left-3 -bottom-3 rounded-md group-hover:-left-4 group-hover:-bottom-4 transition-all duration-300 ease-out"></div>
       </div>
       <div className="flex flex-col gap-10 w-full md:w-3/6 text-center md:text-left ">
         <h2 className=" text-5xl md:text-6xl font-lato text-primary font-[600]">

@@ -3,7 +3,7 @@ import React from "react";
 
 const Forms = () => {
   return (
-    <div className="flex gap-12 items-center justify-center">
+    <div className="flex gap-12 items-center justify-center group">
       {/* forms section */}
       <div className="h-[60vh] w-full md:w-2/4 flex flex-col gap-4">
         <h2 className="text-5xl md:text-6xl text-center md:text-left font-lato text-primary font-[600]">
@@ -41,7 +41,7 @@ const Forms = () => {
         </div>
       </div>
       {/* image part */}
-      <div className="hidden md:block relative h-[60vh] w-2/6 ">
+      <div className="hidden md:block relative h-[60vh] w-2/6 group-hover:translate-x-1 group-hover:-translate-y-1 transition-all duration-300 ease-out ">
         <Image
           src="https://images.pexels.com/photos/4210811/pexels-photo-4210811.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
           fill
@@ -49,7 +49,7 @@ const Forms = () => {
           className="object-cover rounded-md z-10 "
           alt=""
         />
-        <div className="bg-primary h-full w-full absolute -right-3 -bottom-3 rounded-md"></div>
+        <div className="bg-primary h-full w-full absolute -right-3 -bottom-3 rounded-md group-hover:-right-4 group-hover:-bottom-4 transition-all duration-300 ease-out"></div>
       </div>
       {/* Description Part */}
     </div>
