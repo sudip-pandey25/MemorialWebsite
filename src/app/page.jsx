@@ -8,6 +8,7 @@ import SecondSection from "./components/SecondSection";
 import Forms from "./components/Forms";
 import Testimonails from "./components/Testimonails";
 import "./components/hero.css";
+import Secure from "./components/Secure";
 
 export default function Home() {
   return (
@@ -18,27 +19,37 @@ export default function Home() {
       <div className="px-2 md:px-60 ">
         <Aboutuslink />
       </div>
-      <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-12 md:py-24">
+      <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-16 md:py-24">
         <SecondSection />
       </div>
       <div className=" flex items-center justify-between px-12  ">
+        <div className="h-[1px] bg-gray-600 w-[30%]"></div>
+        <p className="font-semibold text-lg text-center text-primary font-playwrite">
+          Place your memorial today and share with world
+        </p>
+        <div className="h-[1px] bg-gray-600 w-[30%]"></div>
+      </div>
+      <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-20 md:py-16  ">
+        <Secure />
+      </div>
+      <div className=" flex items-center justify-between px-12 pb-12 ">
         <div className="h-[1px] bg-gray-600 w-[30%]"></div>
         <p className="font-semibold text-lg text-center text-primary font-playwrite">
           Trusted by over 250,000 families worldwide
         </p>
         <div className="h-[1px] bg-gray-600 w-[30%]"></div>
       </div>
-      <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-20 md:py-12 md:pt-36 md:pb-20 ">
+      <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-20 md:py-20 ">
         <Forms />
       </div>
 
       <div className="px-4 py-10 flex items-center justify-center md:hidden ">
         <Slider />
       </div>
-      <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-12 md:py-20 hidden  md:flex items-center justify-center ">
+      <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-16 md:py-20 hidden  md:flex items-center justify-center ">
         <Card />
       </div>
-      <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-12 md:py-20">
+      <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-16 md:py-20">
         <Testimonails />
       </div>
 
