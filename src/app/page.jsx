@@ -28,9 +28,9 @@ export default function Home() {
         </p>
         <div className="h-[1px] bg-gray-600 w-[30%]"></div>
       </div>
-      <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-20 md:py-16  ">
+      {/* <div className="px-4 md:px-6 lg:px-8 xl:px-12 py-20 md:py-16  ">
         <Secure />
-      </div>
+      </div> */}
       <div className=" flex items-center justify-between px-12 pb-12 ">
         <div className="h-[1px] bg-gray-600 w-[30%]"></div>
         <p className="font-semibold text-lg text-center text-primary font-playwrite">
