@@ -8,8 +8,8 @@ const Forms = () => {
       <div className="h-[60vh] w-full md:w-2/4 flex flex-col gap-4">
         <h2 className="text-5xl md:text-6xl text-center md:text-left font-lato text-primary font-[600]">
           Create a Memorial{" "}
-          <span class="relative inline-block before:absolute before:inset-0 before:-bottom-2 before:block before:skew-y-2 before:bg-primary">
-            <span class="relative text-white">Website</span>
+          <span className="relative inline-block before:absolute before:inset-0 before:-bottom-2 before:block before:skew-y-2 before:bg-primary">
+            <span className="relative text-white">Website</span>
           </span>{" "}
           now
         </h2>

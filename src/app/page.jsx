@@ -55,8 +55,8 @@ export default function Home() {
 
       <div className=" relative px-4 md:px-6 lg:px-8 xl:px-12 py-12 bg-background flex flex-col h-[90vh] gap-4 ">
         <div className="text-4xl z-20 font-semibold font-lato text-white text-center ">
-          <span class="relative inline-block before:absolute before:-inset-1 before:-bottom-2 before:block before:-skew-y-1 before:bg-foreground">
-            <span class="relative text-white">Memorial</span>
+          <span className="relative inline-block before:absolute before:-inset-1 before:-bottom-2 before:block before:-skew-y-1 before:bg-foreground">
+            <span className="relative text-white">Memorial</span>
           </span>{" "}
           Gallaries
         </div>

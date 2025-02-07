@@ -18,8 +18,8 @@ const SecondSection = () => {
       <div className="flex flex-col gap-10 w-full md:w-3/6 text-center md:text-left ">
         <h2 className=" text-5xl md:text-6xl font-lato text-primary font-[600]">
           Why create a{" "}
-          <span class="relative inline-block before:absolute before:inset-0 before:-bottom-2 before:block before:-skew-y-3 before:bg-primary">
-            <span class="relative text-white">Memorial</span>
+          <span className="relative inline-block before:absolute before:inset-0 before:-bottom-2 before:block before:-skew-y-3 before:bg-primary">
+            <span className="relative text-white">Memorial</span>
           </span>{" "}
           online?
         </h2>
