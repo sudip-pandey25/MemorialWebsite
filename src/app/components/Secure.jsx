@@ -1,7 +1,8 @@
 "use client";
 import React from "react";
 import secure from "./lottie/secure.json";
-import Lottie from "lottie-react";
+import dynamic from "next/dynamic";
+const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
 const Secure = () => {
   return (
