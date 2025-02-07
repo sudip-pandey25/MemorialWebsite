@@ -7,7 +7,6 @@ import Slider from "./components/Slider";
 import SecondSection from "./components/SecondSection";
 import Forms from "./components/Forms";
 import Testimonails from "./components/Testimonails";
-import "./components/hero.css";
 import Secure from "./components/Secure";
 
 export default function Home() {
