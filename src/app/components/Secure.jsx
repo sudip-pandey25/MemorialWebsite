@@ -1,6 +1,6 @@
 "use client";
 import React from "react";
-import secure from "./lottie/secure.json";
+import scure from "./lottie/scure.json";
 import dynamic from "next/dynamic";
 const Lottie = dynamic(() => import("lottie-react"), { ssr: false });
 
@@ -10,9 +10,9 @@ const Secure = () => {
       <div className="flex gap-12 items-center justify-center group">
         {/* image part */}
         <Lottie
-          animationData={secure}
+          animationData={scure}
           loop={true}
-          className="relative hidden md:block"
+          className="relative hidden md:block w-[650px]"
         ></Lottie>
 
         <div className="flex flex-col gap-10 w-full md:w-3/6 text-center md:text-left ">
