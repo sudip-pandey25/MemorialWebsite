@@ -119,3 +119,7 @@ export const testimonials = [
       "https://images.pexels.com/photos/274947/pexels-photo-274947.jpeg",
   },
 ];
+
+export const designations = ["Covid-19", "War Veteran", "Miscarraige"];
+
+export const relationships = ["Parent", "Sibling", "Friend", "Spouse", "Child"];

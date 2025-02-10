@@ -6,6 +6,7 @@ import React, { useState } from "react";
 const Forms = () => {
   const [firstName, setfirstName] = useState("");
   const [lastName, setlastName] = useState("");
+  const isLoggedIn = true;
 
   const queryParams = new URLSearchParams({
     firstName: firstName,
@@ -46,7 +47,13 @@ const Forms = () => {
                 />
               </div>
               <div className="flex justify-end">
-                <Link href={`/creatememorial/details?${queryParams}`}>
+                <Link
+                  href={`${
+                    isLoggedIn
+                      ? `/creatememorial/details/?${queryParams}`
+                      : `/creatememorial/register`
+                  }`}
+                >
                   <button className="bg-foreground shadow-2xl px-3 py-2 rounded-full hover:px-4  transition-all duration-300 ease-in-out hover:shadow-sm text-white">
                     Get Started
                   </button>
