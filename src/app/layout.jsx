@@ -13,11 +13,9 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
         <main className="relative overflow-hidden bg-gradient-to-br from-amber-50 to-blue-50  ">
-          <div className="min-h-[100vh]">
-            {children}
-            <Footer />
-          </div>
+          <div className="min-h-[100vh]">{children}</div>
         </main>
+        <Footer />
       </body>
     </html>
   );

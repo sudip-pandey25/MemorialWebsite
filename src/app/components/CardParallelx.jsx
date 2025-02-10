@@ -23,11 +23,10 @@ const CardParallelx = ({ reason, url, name, color }) => {
             spaceBetween: 20,
           },
         }}
-        freeMode={true}
         pagination={{
           clickable: true,
         }}
-        modules={[FreeMode, Pagination]}
+        modules={[Pagination]}
         className="max-w-[70%]"
       >
         {DUMMY_DATA.map((data, index) => (

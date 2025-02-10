@@ -4,8 +4,9 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import "swiper/css/free-mode";
+import "swiper/css/autoplay";
 
-import { FreeMode, Pagination } from "swiper/modules";
+import { FreeMode, Pagination, Navigation, Autoplay } from "swiper/modules";
 
 import { testimonials } from "../../../constants";
 import Image from "next/image";
@@ -19,6 +20,7 @@ const Testimonails = () => {
       </p>
       <div className="container flex flex-row items-center justify-center">
         <Swiper
+          autoplay={{ delay: 5000 }}
           breakpoints={{
             340: {
               slidesPerView: 1,
@@ -33,8 +35,8 @@ const Testimonails = () => {
           pagination={{
             clickable: true,
           }}
-          modules={[FreeMode, Pagination]}
-          className="max-w-[70%]"
+          modules={[FreeMode, Pagination, Autoplay]}
+          className="max-w-[100%]"
         >
           {testimonials.map((data) => (
             <SwiperSlide key={data.id}>

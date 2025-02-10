@@ -1,7 +1,17 @@
+"use client";
 import Image from "next/image";
-import React from "react";
+import Link from "next/link";
+import React, { useState } from "react";
 
 const Forms = () => {
+  const [firstName, setfirstName] = useState("");
+  const [lastName, setlastName] = useState("");
+
+  const queryParams = new URLSearchParams({
+    firstName: firstName,
+    lastName: lastName,
+  }).toString();
+
   return (
     <div className="flex gap-12 items-center justify-center group">
       {/* forms section */}
@@ -23,18 +33,24 @@ const Forms = () => {
                 <input
                   type="text"
                   placeholder="First Name"
+                  value={firstName}
+                  onChange={(e) => setfirstName(e.target.value)}
                   className="border-b border-gray-400 outline-none text-base font-poppins px-2 py-3  focus:border-b focus:border-primary transition-all duration-300 ease-in-out w-full focus:h-full focus:bg-primary focus:text-white focus:rounded-lg placeholder:italic"
                 />
                 <input
                   type="text"
                   placeholder="Last Name"
+                  value={lastName}
+                  onChange={(e) => setlastName(e.target.value)}
                   className="border-b border-gray-400 outline-none text-base font-poppins px-2 py-3  focus:border-b focus:border-primary transition-all duration-300 ease-in-out w-full ocus:h-full focus:bg-primary focus:text-white focus:rounded-lg placeholder:italic"
                 />
               </div>
               <div className="flex justify-end">
-                <button className="bg-foreground shadow-2xl px-3 py-2 rounded-full hover:px-4  transition-all duration-300 ease-in-out hover:shadow-sm text-white">
-                  Get Started
-                </button>
+                <Link href={`/creatememorial/details?${queryParams}`}>
+                  <button className="bg-foreground shadow-2xl px-3 py-2 rounded-full hover:px-4  transition-all duration-300 ease-in-out hover:shadow-sm text-white">
+                    Get Started
+                  </button>
+                </Link>
               </div>
             </form>
           </div>
