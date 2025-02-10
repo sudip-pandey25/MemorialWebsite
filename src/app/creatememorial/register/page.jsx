@@ -100,7 +100,7 @@ const Page = () => {
             htmlFor="password"
             className="text-xs md:text-base pb-2 text-gray-600"
           >
-            Password:
+            Passwords:
           </label>
           <input
             type="password"
