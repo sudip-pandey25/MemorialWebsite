@@ -3,7 +3,7 @@
 import { useRouter, useSearchParams } from "next/navigation";
 import React, { Suspense, useState } from "react";
 import { designations, relationships } from "../../../../constants";
-import { ArrowDownIcon } from "lucide-react";
+import { ArrowDownIcon, ArrowUpIcon } from "lucide-react";
 
 const DetailsFormPage = () => {
   const searchParams = useSearchParams();
