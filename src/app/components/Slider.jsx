@@ -16,10 +16,10 @@ const Slider = () => {
   };
 
   return (
-    <div className="relative max-w-lg overflow-hidden rounded-2xl">
+    <div className="relative max-w-xs overflow-hidden rounded-2xl">
       <div
         className="flex transition-transform duration-300 w-full ease-out "
-        style={{ transform: `translateX(-${current * 93}vw)` }}
+        style={{ transform: `translateX(-${current * 100}%)` }}
       >
         {SLIDER.map((slides) => (
           <img

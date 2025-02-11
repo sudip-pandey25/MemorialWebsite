@@ -123,3 +123,60 @@ export const testimonials = [
 export const designations = ["Covid-19", "War Veteran", "Miscarraige"];
 
 export const relationships = ["Parent", "Sibling", "Friend", "Spouse", "Child"];
+
+export const pricing = [
+  {
+    type: "Basic",
+    price: "Free",
+    description:
+      "Start your journey with essential features perfect for personal or small-scale projects. Get online hassle-free!",
+    plans: [
+      {
+        plan: "Customizable Templates",
+      },
+      {
+        plan: "Free Forever",
+      },
+    ],
+    button: "Select",
+  },
+  {
+    type: "Premium",
+    price: "$79/yr",
+    description:
+      "Unlock advanced features tailored for growing businesses. Scale up and stay ahead of the competition!",
+    plans: [
+      {
+        plan: "Full access to all premium features",
+      },
+      {
+        plan: "Renews annually",
+      },
+    ],
+    button: "Pay with Card",
+  },
+  {
+    type: "Enterprise",
+    price: "$500",
+    description:
+      "Powerful and scalable solutions designed for large enterprises with custom needs and premium services.",
+    plans: [
+      {
+        plan: "One Time Payment",
+      },
+      {
+        plan: "All features",
+      },
+      {
+        plan: "Best value",
+      },
+      {
+        plan: "Full access to all premium website features",
+      },
+      {
+        plan: "Loved one's memorial will forever remain online",
+      },
+    ],
+    button: "Pay with Card",
+  },
+];
