@@ -120,7 +120,7 @@ const page = () => {
                 Do not have a account?{" "}
                 <Link href="/auth/singup" className="underline text-primary">
                   {" "}
-                  Sign in
+                  Sign Up
                 </Link>
                 <br />
                 or with email
