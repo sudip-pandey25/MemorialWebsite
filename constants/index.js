@@ -1,6 +1,6 @@
 export const NAV_LINKS = [
   { href: "/", key: "home", label: "Home" },
-  { href: "/", key: "AboutUS", label: "About Us" },
+  { href: "/aboutus", key: "AboutUS", label: "About Us" },
   { href: "/pricing", key: "Pricing", label: "Pricing" },
   { href: "/", key: "MemorialsWeb", label: "Memorials Websites" },
   { href: "/", key: "Testimonials", label: "Testimonials" },
@@ -178,5 +178,61 @@ export const pricing = [
       },
     ],
     button: "Pay with Card",
+  },
+];
+export const team = [
+  {
+    name: "Emily Carter",
+    role: "Founder & CEO",
+    bio: "Emily is passionate about creating meaningful digital spaces for remembrance. She leads the vision and direction of the platform with empathy and innovation.",
+    photo: "https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg",
+  },
+  {
+    name: "Michael Reynolds",
+    role: "Chief Technology Officer",
+    bio: "With years of experience in web development, Michael ensures the platform is secure, reliable, and easy to use for everyone.",
+    photo: "https://images.pexels.com/photos/2379005/pexels-photo-2379005.jpeg",
+  },
+  {
+    name: "Sophia Patel",
+    role: "Head of Design",
+    bio: "Sophia focuses on crafting a user-friendly and compassionate experience, making sure the platform reflects warmth and comfort.",
+    photo: "https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg",
+  },
+  {
+    name: "David Chen",
+    role: "Community Manager",
+    bio: "David fosters a supportive community, helping users navigate the platform and share their tributes with ease.",
+    photo: "https://images.pexels.com/photos/937481/pexels-photo-937481.jpeg",
+  },
+  {
+    name: "Lisa Thompson",
+    role: "Marketing & Outreach",
+    bio: "Lisa works to spread awareness about our mission, ensuring that families in need can find and use our platform.",
+    photo: "https://images.pexels.com/photos/1181424/pexels-photo-1181424.jpeg",
+  },
+  {
+    name: "James Anderson",
+    role: "Product Manager",
+    bio: "James works closely with the development and design teams to ensure that the platform’s features are always aligned with user needs and expectations.",
+    photo: "https://images.pexels.com/photos/2379004/pexels-photo-2379004.jpeg",
+  },
+  {
+    name: "Olivia Martin",
+    role: "Lead Content Creator",
+    bio: "Olivia is responsible for crafting thoughtful and comforting content that resonates with users, from tributes to blog posts.",
+    photo: "https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg",
+  },
+  {
+    name: "Aiden Davis",
+    role: "UX/UI Designer",
+    bio: "Aiden ensures the platform is intuitive, accessible, and visually appealing to make the user experience as seamless as possible.",
+    photo: "https://images.pexels.com/photos/2379006/pexels-photo-2379006.jpeg",
+  },
+  {
+    name: "Charlotte Lee",
+    role: "Customer Support Lead",
+    bio: "Charlotte leads our support team, helping users with any issues and ensuring they feel heard and supported throughout their experience.",
+    photo: "https://images.pexels.com/photos/2269872/pexels-photo-2269872.jpeg",
   },
 ];
