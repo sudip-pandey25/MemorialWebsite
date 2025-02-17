@@ -4,6 +4,8 @@ import { useRouter, useSearchParams } from "next/navigation";
 import React, { Suspense, useState } from "react";
 import { designations, relationships } from "../../../../constants";
 import { ArrowDownIcon, ArrowUpIcon } from "lucide-react";
+import { useDispatch } from "react-redux";
+import { saveFormData } from "../../../../redux/formData/formSlice.js";
 
 const DetailsFormPage = () => {
   const searchParams = useSearchParams();
@@ -15,6 +17,7 @@ const DetailsFormPage = () => {
   const [gender, setGender] = useState("");
   const [error, setError] = useState("");
   const router = useRouter();
+  const dispatch = useDispatch();
   const [isClicked, setIsClicked] = useState(false);
   const [BornDate, setBornDate] = useState({
     day: "",
@@ -81,6 +84,7 @@ const DetailsFormPage = () => {
       router.push(`/creatememorial/pricing`);
       console.log(formData);
       setError("");
+      dispatch(saveFormData(formData));
     }
   };
 
