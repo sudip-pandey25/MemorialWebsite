@@ -7,7 +7,7 @@ const Aboutuslink = () => {
       <div className="w-full h-[1px] bg-gray-300"></div>
       <Link
         href="/"
-        className="text-center bg-primary shadow-lg hover:shadow-xl hover:font-medium border-0 py-3 rounded-full font-poppins transition-all duration-300 ease-in-out text-white  "
+        className="text-center bg-foreground shadow-lg hover:shadow-xl hover:font-medium border-0 py-3 rounded-full font-poppins transition-all duration-300 ease-in-out text-white  "
       >
         About online Memorials{" "}
       </Link>

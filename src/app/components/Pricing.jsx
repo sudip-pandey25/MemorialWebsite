@@ -2,6 +2,7 @@
 
 import React from "react";
 import { pricing } from "../../../constants";
+import Link from "next/link";
 
 const Pricing = () => {
   return (
@@ -35,9 +36,11 @@ const Pricing = () => {
                 ))}
               </ul>
             </div>
-            <button className="w-full flex items-center justify-center bg-white text-foreground py-2 border rounded-lg font-medium hover:border-white hover:text-white hover:bg-transparent transition-all duration-300 ease-in-out">
-              {data.button}
-            </button>
+            <Link href="/creatememorial/privacy" className="w-full">
+              <button className="w-full flex items-center justify-center bg-white text-foreground py-2 border rounded-lg font-medium hover:border-white hover:text-white hover:bg-transparent transition-all duration-300 ease-in-out">
+                {data.button}
+              </button>
+            </Link>
           </div>
         ))}
       </div>

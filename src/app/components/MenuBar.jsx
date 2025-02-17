@@ -13,7 +13,7 @@ const MenuBar = () => {
       <Menu size={30} onClick={() => setOpen((prev) => !prev)} />
       <div
         className={clsx(
-          "absolute bg-gradient-to-br from-amber-50 to-blue-50 w-full h-[calc(100vh-80px)] left-0 top-16 text-primary flex flex-col items-center justify-center gap-8 font-poppins text-lg transform transition-all duration-500 ease-in-out",
+          "absolute bg-gradient-to-br from-amber-50 to-blue-50 w-full h-[calc(100vh-80px)] left-0 top-16 text-foreground flex flex-col items-center justify-center gap-8 font-poppins text-lg transform transition-all duration-500 ease-in-out",
           {
             "opacity-100 translate-y-0 visible": open,
             "opacity-0 -translate-y-1 invisible": !open,

@@ -15,7 +15,7 @@ const Hero = () => {
 
   return (
     <>
-      <div className="relative z-20  h-auto flex flex-col md:flex-row items-center justify-evenly p-10 gap-4 md:gap-0">
+      <div className="relative z-20  h-auto flex flex-col md:flex-row items-center justify-evenly py-24 gap-4 md:gap-0">
         {/* title Section */}
         <div className="">
           <div className="flex flex-col items-center justify-center h-full w-full gap-5">
@@ -29,7 +29,7 @@ const Hero = () => {
             </div>
           </div>
         </div>
-        <div className="form bg-white rounded-md shadow-md">
+        <div className="form bg-white rounded-md shadow-md md:p-5">
           <h1 className="px-10 pt-8 text-gray-800 font-poppins">
             I want to share memories of
           </h1>

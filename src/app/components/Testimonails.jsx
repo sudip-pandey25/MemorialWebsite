@@ -15,7 +15,7 @@ import StarRating from "./StarRating";
 const Testimonails = () => {
   return (
     <div className="flex flex-col gap-2 items-center justify-center cursor-pointer">
-      <p className="text-center font-[600] font-lato text-4xl text-primary">
+      <p className="text-center font-[600] font-lato text-4xl text-foreground">
         Testimonials
       </p>
       <div className="container flex flex-row items-center justify-center">
