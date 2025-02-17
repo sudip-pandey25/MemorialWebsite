@@ -230,7 +230,7 @@ const page = () => {
               </button>
               <p className="text-center text-sm text-gray-700 mt-2">
                 Already have an account?{" "}
-                <Link href="/auth/singup" className="underline text-primary">
+                <Link href="/auth/login" className="underline text-primary">
                   {" "}
                   Sign in
                 </Link>
