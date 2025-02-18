@@ -6,6 +6,13 @@ export const NAV_LINKS = [
   { href: "/", key: "Testimonials", label: "Testimonials" },
 ];
 
+export const TEMP_NAV = [
+  { href: "/", key: "home", label: "Home" },
+  { href: "/aboutus", key: "AboutUS", label: "Create a New website" },
+  { href: "/pricing", key: "Pricing", label: "Invite Others" },
+  { href: "/", key: "MemorialsWeb", label: "Contact Support" },
+];
+
 export const SLIDER = [
   {
     key: "jhon",

@@ -5,7 +5,7 @@ import MenuBar from "./MenuBar";
 const Navbar = () => {
   const isLoggedIn = false;
   return (
-    <header className=" sticky top-0 z-50 h-16 md:h-20 bg-gradient-to-br from-amber-50 to-blue-50 backdrop-blur-md ">
+    <header className="sticky top-0 z-50 h-16 md:h-20 bg-gradient-to-br from-amber-50 to-blue-50 backdrop-blur-md ">
       <nav className="relative border-b shadow-sm flex items-center justify-between max-container w-full  px-4 md:px-6 lg:px-8 xl:px-12 h-full">
         {/* Desktop Navigation */}
         <Link href="/">
