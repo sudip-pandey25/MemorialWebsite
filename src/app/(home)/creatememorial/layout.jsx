@@ -1,7 +1,7 @@
 "use client";
 
 import { usePathname } from "next/navigation.js";
-import Heading from "../components/creatememorial/Heading.jsx";
+import Heading from "../../components/creatememorial/Heading.jsx";
 import { useEffect, useState } from "react";
 
 const layout = ({ children }) => {

@@ -1,7 +1,7 @@
-import Footer from "./components/Footer";
-import Navbar from "./components/Navbar";
-import "./globals.css";
-import Provider from "./components/Provider.jsx";
+import Footer from "../components/Footer";
+import Navbar from "../components/Navbar";
+import "../globals.css";
+import Provider from "../components/Provider.jsx";
 
 export const metadata = {
   title: "Memorability",

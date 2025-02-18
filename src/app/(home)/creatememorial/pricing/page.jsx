@@ -1,4 +1,4 @@
-import Pricing from "../../components/Pricing.jsx";
+import Pricing from "../../../components/Pricing.jsx";
 import React from "react";
 
 const page = () => {

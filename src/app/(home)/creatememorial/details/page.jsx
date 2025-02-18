@@ -2,10 +2,10 @@
 
 import { useRouter, useSearchParams } from "next/navigation";
 import React, { Suspense, useState } from "react";
-import { designations, relationships } from "../../../../constants";
+import { designations, relationships } from "../../../../../constants";
 import { ArrowDownIcon, ArrowUpIcon } from "lucide-react";
 import { useDispatch } from "react-redux";
-import { saveFormData } from "../../../../redux/formData/formSlice.js";
+import { saveFormData } from "../../../../../redux/formData/formSlice.js";
 
 const DetailsFormPage = () => {
   const searchParams = useSearchParams();

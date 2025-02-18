@@ -66,7 +66,7 @@ const page = () => {
                 </span>
               </label>
             </div>
-            <Link href="/templates" className="flex md:justify-end ">
+            <Link href="/template" className="flex md:justify-end ">
               <button className="px-3 py-2 bg-foreground text-white rounded-3xl hover:px-4 transition-all duration-300 ease-in-out">
                 Continue to memorial
               </button>

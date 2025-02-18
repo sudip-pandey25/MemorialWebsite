@@ -1,13 +1,13 @@
 import { ChevronRight } from "react-feather";
-import Aboutuslink from "./components/Aboutuslink";
-import Card from "./components/Card";
-import Collection from "./components/Collection";
-import Hero from "./components/Hero";
-import Slider from "./components/Slider";
-import SecondSection from "./components/SecondSection";
-import Forms from "./components/Forms";
-import Testimonails from "./components/Testimonails";
-import Secure from "./components/Secure";
+import Aboutuslink from "../components/Aboutuslink";
+import Card from "../components/Card";
+import Collection from "../components/Collection";
+import Hero from "../components/Hero";
+import Slider from "../components/Slider";
+import SecondSection from "../components/SecondSection";
+import Forms from "../components/Forms";
+import Testimonails from "../components/Testimonails";
+import Secure from "../components/Secure";
 
 export default function Home() {
   return (

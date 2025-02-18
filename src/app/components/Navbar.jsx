@@ -33,7 +33,7 @@ const Navbar = () => {
               Profile
             </button>
           ) : (
-            <Link href="/auth/login">
+            <Link href="/login">
               <button className="bg-foreground px-3 py-2 rounded-full hover:px-4  transition-all duration-300 ease-in-out hover:shadow-sm text-white">
                 Sign In
               </button>

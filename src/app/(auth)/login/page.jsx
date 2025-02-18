@@ -118,7 +118,7 @@ const page = () => {
               </button>
               <p className="text-center text-sm text-gray-700 mt-2">
                 Do not have a account?{" "}
-                <Link href="/auth/singup" className="underline text-primary">
+                <Link href="/singup" className="underline text-primary">
                   {" "}
                   Sign Up
                 </Link>

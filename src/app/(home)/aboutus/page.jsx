@@ -1,7 +1,7 @@
 "use client";
 import Image from "next/image";
 import react, { useState } from "react";
-import { team } from "../../../constants";
+import { team } from "../../../../constants";
 import CountUp from "react-countup";
 
 const page = () => {
